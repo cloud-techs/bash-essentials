@@ -1,6 +1,6 @@
 #!/bin/bash
-[["dog" == "dog"]]
+[[ "dog" == "dog" ]]
 echo $?
 
-[["dog" == "dig"]]
+[[ "dog" == "dig" ]]
 echo $?
